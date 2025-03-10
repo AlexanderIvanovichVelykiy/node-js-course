@@ -1,3 +1,4 @@
+
 function logRequest(req, res, next) {
     console.log(`Received a ${req.method} request to ${req.url}`);
     next(); // Call the next middleware function in the chain

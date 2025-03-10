@@ -1,14 +1,21 @@
 {
-  "name": "back-end",
+  "name": "nodejs-course",
   "version": "1.0.0",
-  "description": "Oleksandr Velykyy gr 549",
-  "main": "index.js",
+  "description": "",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node src/index.js",
+    "migration:generate": "drizzle-kit generate:pg",
+    "migration:push": "drizzle-kit push:pg"
   },
-  "author": "",
+  "author": "Velykyy Alexander",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1"
+    "-": "^0.0.1",
+    "drizzle-kit": "^0.30.5",
+    "drizzle-orm": "^0.40.0",
+    "express": "^4.18.2",
+    "pg": "^8.13.3"
   }
 }

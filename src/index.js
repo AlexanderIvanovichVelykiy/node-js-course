@@ -1,3 +1,4 @@
+
 const express = require('express')
 const productRoutes = require('./product.routes');
 const { logRequest } = require('./middleware');
