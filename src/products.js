@@ -1,3 +1,4 @@
+
 const products = [
     { id: 1, name: 'Product 1', brand: 'Brand A' },
     { id: 2, name: 'Product 2', brand: 'Brand B' },
